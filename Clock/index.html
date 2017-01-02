@@ -18,7 +18,7 @@
 
 <style>
   html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+    background: #018DED url(img/time.jpg) center no-repeat;
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -76,7 +76,7 @@
     const now = new Date();
 
     const seconds = now.getSeconds();
-    const secondsDegrees = secondsDegrees + ((seconds / 60) * 360) + 90;
+    const secondsDegrees = ((seconds / 60) * 360) + 90;
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
     const mins = now.getMinutes();
