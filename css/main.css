@@ -6,6 +6,9 @@
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 24px;
 }
 .my-page__image {
   width: 100%;
